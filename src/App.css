@@ -15,4 +15,11 @@
 
 .app-body {
   padding: 20px;
+  text-align: center;
+}
+
+footer {
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
 }
