@@ -3,14 +3,18 @@ import { Icon, Form, TextArea } from "semantic-ui-react";
 import axios from "axios";
 
 export default function Translate() {
-  const [LanguageList, useLanguageList] = setState([]);
+  const [LanguageList, setLanguageList] = useState([]);
   const [inputText, setInputText] = useState("");
   const [resultText, setResultText] = useState("");
   const translateText = () => {
     setResultText(inputText);
   };
 
-  useEffect(() => {}, [input]);
+  useEffect(() => {
+    axios.get(`https://libretranslate.de/languages`).then((response) => {
+      setLanguageList(response.data);
+    });
+  }, []);
   return (
     <div>
       {/* App Header */}
@@ -35,8 +39,9 @@ export default function Translate() {
             {/* Language selection */}
             <select class="ui dropdown">
               <option value="">Select Language</option>
-              <option value="1">English</option>
-              <option value="0">French</option>
+              {LanguageList.map((language) => {
+                return <option>{language.name}</option>;
+              })}
             </select>
             <br />
             <br />
