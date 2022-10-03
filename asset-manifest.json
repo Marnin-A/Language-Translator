@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Marnin-A/Language-Translator/static/css/main.ab5a3a30.css",
+    "main.js": "/Marnin-A/Language-Translator/static/js/main.8f8023dc.js",
+    "index.html": "/Marnin-A/Language-Translator/index.html",
+    "main.ab5a3a30.css.map": "/Marnin-A/Language-Translator/static/css/main.ab5a3a30.css.map",
+    "main.8f8023dc.js.map": "/Marnin-A/Language-Translator/static/js/main.8f8023dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab5a3a30.css",
+    "static/js/main.8f8023dc.js"
+  ]
+}
