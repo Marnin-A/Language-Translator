@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/github.io/Language-Translator/static/css/main.ab5a3a30.css",
-    "main.js": "/github.io/Language-Translator/static/js/main.8f8023dc.js",
-    "index.html": "/github.io/Language-Translator/index.html",
-    "main.ab5a3a30.css.map": "/github.io/Language-Translator/static/css/main.ab5a3a30.css.map",
-    "main.8f8023dc.js.map": "/github.io/Language-Translator/static/js/main.8f8023dc.js.map"
+    "main.css": "/Language-Translator/static/css/main.ab5a3a30.css",
+    "main.js": "/Language-Translator/static/js/main.8f8023dc.js",
+    "index.html": "/Language-Translator/index.html",
+    "main.ab5a3a30.css.map": "/Language-Translator/static/css/main.ab5a3a30.css.map",
+    "main.8f8023dc.js.map": "/Language-Translator/static/js/main.8f8023dc.js.map"
   },
   "entrypoints": [
     "static/css/main.ab5a3a30.css",

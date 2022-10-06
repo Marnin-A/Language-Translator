@@ -97,6 +97,9 @@ export default function Translate() {
       </div>
       <footer className="footer">
         P.S Book translation will be available later on
+        <blockquote>
+          by <a href="https://github.com/Marnin-A/">Marnin_a</a>
+        </blockquote>
       </footer>
     </div>
   );
